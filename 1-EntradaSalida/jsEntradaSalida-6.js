@@ -7,12 +7,12 @@ function sumar()
 
   var b;
 
-  var suma = parseInt(a) + parseInt(b);
-  
-  a = document.getElementById("numeroUno").value;
-  b = document.getElementById("numeroDos").value;
+  var resultado;
 
-  alert ("el resultado es " + suma );
+  a = parseInt(document.getElementById("numeroUno").value);
+  b = parseInt(document.getElementById("numeroDos").value);
+  resultado = (a + b);
+  alert ("el resultado es " + resultado );
 
 }
 
